@@ -1,0 +1,49 @@
+﻿
+@{
+    ViewData["Title"] = "Category";
+    Layout = "~/Views/Shared/_DashboardLayout.cshtml";
+}
+
+<ol class="breadcrumb mb-4">
+    <li class="breadcrumb-item active">@ViewData["Title"]</li>
+</ol>
+<div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Category Name</th>
+                <th scope="col">Description</th>
+                <th scope="col">Options</th>
+                <th>
+                    
+                    <button type="button" class="btn btn-dark">Oluştur</button>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>Teknoloji</td>
+                <td>En yeni Teknolojik Ürünler</td>
+                <td>
+                    <button type="button" class="btn btn-light">Sil</button>
+                    <button type="button" class="btn btn-dark">Güncelle</button>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Kitap</td>
+                <td>Tarihin Tozlu Kitapları</td>
+                <td></td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>Giyim</td>
+                <td colspan="2">Modanın Son Trendleri</td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
